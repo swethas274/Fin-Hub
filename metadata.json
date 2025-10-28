@@ -1,0 +1,5 @@
+{
+  "name": "Fin-Hub",
+  "description": "An agentic finance application that provides real-time stock data visualization, news sentiment analysis powered by Gemini, and simulated investment predictions.",
+  "requestFramePermissions": []
+}
