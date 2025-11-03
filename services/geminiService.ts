@@ -1,5 +1,10 @@
+import dotenv from 'dotenv';
+dotenv.config(); 
+
+export const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
+
 import { GoogleGenAI, Type } from "@google/genai";
-import { GEMINI_API_KEY } from '../constants';
+
 import type { NewsArticle, SentimentAnalysis } from '../types';
 
 // Initialize the Google Gemini AI client with the API key from constants.
