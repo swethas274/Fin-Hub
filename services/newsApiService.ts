@@ -1,5 +1,7 @@
+import dotenv from 'dotenv';
+dotenv.config();
+export const NEWS_API_KEY = process.env.NEWS_API_KEY || '';
 
-import { NEWS_API_KEY } from '../constants';
 import type { NewsArticle } from '../types';
 
 const BASE_URL = 'https://newsapi.org/v2/everything';
