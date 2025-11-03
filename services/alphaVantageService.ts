@@ -1,5 +1,7 @@
+import dotenv from 'dotenv';
+dotenv.config();  // Load .env variables
 
-import { ALPHA_VANTAGE_API_KEY } from '../constants';
+export const ALPHA_VANTAGE_API_KEY = process.env.ALPHA_VANTAGE_API_KEY || '';
 
 const BASE_URL = 'https://www.alphavantage.co/query';
 
