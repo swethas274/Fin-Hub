@@ -1,20 +1,8 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Fin-Hub
 
-# Run and deploy your AI Studio app
+Fin-Hub is a financial management web application designed to help users organize, track, and analyze their financial activities through a simple and intuitive interface. The platform focuses on clear data visualization and efficient record management to support better financial decision-making.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1C8g-9ZKpqxn4FFlbr_XzDP7Mb3D-hITl
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ML Approach
+- Feature extraction from financial datasets
+- Machine Learning model for pattern analysis
+- Fusion-based decision mechanism for improved prediction results
